@@ -1,0 +1,156 @@
+/* Dispositivo mobile largo */
+@media (min-width: 550px) {
+  /* Cabecalho */
+  .cabecalho {
+    height: 700px;
+  }
+
+  .introducao {
+    margin-top: 120px;
+  }
+
+  /* Sobre */
+  .sobre .container-img {
+    height: 450px;
+  }
+
+  /* Testemunhos */
+  .testemunhos {
+    padding: 150px 25px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  /* Cabecalho */
+  .cabecalho {
+    background-image: url(../img/desktop/image-header.jpg);
+  }
+
+  [data-menu="hamburguer"] {
+    display: none;
+  }
+
+  .topo-cabecalho .menu {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    gap: 10px;
+    transform: none;
+    max-width: none;
+  }
+
+  .topo-cabecalho .menu.ativo {
+    animation: none;
+  }
+
+  .topo-cabecalho .menu::before {
+    content: none;
+  }
+
+  .topo-cabecalho .menu li a {
+    display: inline;
+    color: #fff;
+  }
+
+  .topo-cabecalho .menu li .contato {
+    background-color: #fff;
+    transition: .15s ease-in-out;
+  }
+
+  .topo-cabecalho .menu li .contato:hover {
+    background: hsla(0, 0%, 100%, 0.3);
+    color: #fff;
+  }
+
+  /* Introdução */
+  .introducao h1 {
+    font-size: 40px;
+  }
+
+  /* Sobre */
+  .sobre {
+    flex-direction: row;
+  }
+
+  .sobre .container-img {
+    width: 50%;
+  }
+
+  .sobre .container-img.order-lg {
+    order: 1;
+  }
+
+  .sobre .descricao {
+    width: 50%;
+    padding: 40px 60px;
+    text-align: left;
+  }
+
+  .sobre .descricao .btn {
+    margin-left: 10px;
+  }
+
+  /* Servicos */
+  .servicos {
+    flex-direction: row;
+  }
+
+  /* Projetos */
+  .projetos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  /* Cabecalho */
+  .topo-cabecalho .menu {
+    gap: 40px;
+    justify-content: space-between;
+  }
+
+  .introducao h1 {
+    letter-spacing: 9px;
+    margin-bottom: 80px;
+  }
+
+  /* Sobre */
+  .sobre .descricao {
+    padding: 0 90px;
+  }
+
+  .sobre .descricao h2 {
+    font-size: 40px;
+  }
+
+  .sobre .descricao p {
+    margin-bottom: 40px;
+  }
+
+  /* Testemunho */
+  .testemunhos {
+    padding: 140px 40px;
+  }
+
+  .testemunho-titulo {
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+  }
+
+  .testemunho-container {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .testemunho-cliente .img-cliente {
+    margin-bottom: 60px;
+  }
+
+  .testemunho-cliente .autor {
+    margin-top: 70px;
+  }
+}
