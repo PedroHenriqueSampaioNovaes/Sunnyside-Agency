@@ -10,7 +10,9 @@ Sunnyside Agency é um site de agencia, desenvolvido através do desafio passado
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/92189897/165198812-e05ab76b-f704-43c4-9194-775c4cb3d666.gif)
 
 ### Site mobile
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92189897/165198906-2dc45b40-adcf-44e5-864b-85844446604a.gif)
+<div align="center">
+  ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/92189897/165198906-2dc45b40-adcf-44e5-864b-85844446604a.gif)
+</div>
 
 <div align="center"> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" title="HTML5">
